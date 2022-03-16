@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body,html{
+    background-color: rgb(212, 212, 212);
+    overflow: hidden;
+    
+}
+.parent{
+    overflow: overlay;
+    overflow:scroll;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+}
+.container{
+    height: 100vh;
+    overflow: hidden;
+    scroll-snap-align: start;
+}
+.cont1{
+    background-image: url("./images/TITLE PAGE.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cont2 h1{
+    font-family: 'Open-sans',sans-serif;
+    font-size: 3em;
+    width: fit-content;
+    margin: 1em auto 0;
+    color:#f7b501;
+    text-shadow: 3px 3px #1d4f4b;
+    font-weight: 800;
+ 
+
+}
+.cont3 h1{
+    font-family: 'Open-sans',sans-serif;
+    font-size: 3em;
+    width: fit-content;
+    margin: 1em auto 0;
+    color:#f7b501;
+    text-shadow: 3px 3px #1d4f4b;
+    font-weight: 800;
+
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #424242;
+    border-radius: 10px;
+}
